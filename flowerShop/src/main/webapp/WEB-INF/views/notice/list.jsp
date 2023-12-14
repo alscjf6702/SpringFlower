@@ -8,12 +8,12 @@
     <div class="banner-content bg-accent padding-large">
         <div class="container">
             <div class="row">
-                <div class="col-md-12"> <!-- bootstrap.css -->    
+                <div class="col-md-12">   
                     <div class="section-header">
                         <h1 class="section-title"> 공지사항 </h1>
                         <div class="breadcum-items">
                             <span class="item"><a href="/home">Home /</a></span>
-                            <span class="item"><a href="/notice/list">notice</a></span>
+                            <span class="item">notice</span>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@
                         <h1 class="section-title"> 로그인 </h1>
                         <div class="breadcum-items">
                             <span class="item"><a href="/home">Home /</a></span>
-                            <span class="item"><a href="/member/login">login</a></span>
+                            <span class="item">login</span>
                         </div>
                     </div>
                 </div>

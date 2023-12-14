@@ -18,7 +18,7 @@
 	    <link rel="stylesheet" type="text/css" href="resources/icomoon/icomoon.css">
 	    <link rel="stylesheet" type="text/css" href="resources/css/vendor.css">
 	    
-	    <link rel="stylesheet" type="text/css" href="resources/style.css">
+	    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 	    <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">

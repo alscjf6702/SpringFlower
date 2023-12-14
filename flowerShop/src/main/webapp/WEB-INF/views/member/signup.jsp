@@ -14,8 +14,8 @@
                     <div class="section-header">
                         <h1 class="section-title"> 회원가입 </h1>
                         <div class="breadcum-items">
-                            <span class="item"> <a href="/home"> Home / </a> </span>
-                            <span class="item"> <a href="/member/signup"> signup </a> </span>
+                            <span class="item"><a href="/home"> Home / </a></span>
+                            <span class="item">signup</span>
                         </div>
                     </div>
                 </div>
@@ -29,14 +29,13 @@
 <div class="signup_section">
     <form method="post" name="frm" action="/member/signup" onsubmit="return check_Phone();" >
 
-      <span class="signup_asterisk">*은 필수입력입니다.</span> <br> 
+      <span class="signup_asterisk"> *은 필수입력입니다. </span> <br> 
         <table class="signup_table">
             <tr>
             <th><label for="userId"> 아이디 <span style="color:red;"> * </span></label></th>
                 <td>
                     <input type="text" id="userId" name="userId" size="15">
-                    <button class="signup_Btn" onclick="checkDuplicateId()"> ID중복확인 </button>
-                    
+                    <button class="signup_Btn" onclick="checkDuplicateId()"> ID중복확인 </button> 
                 </td>
             </tr>
             <tr>
@@ -47,7 +46,7 @@
             <th><label for="confirmPwd"> 비밀번호 확인 <span style="color:red;"> * </span></label></th>
             <td>
                 <input type="password" id="confirmPwd" name="confirmPwd" oninput="check_ConfirmPwd()">
-                   <span id="errorMsg_Pwd"></span>
+                <span id="errorMsg_Pwd"></span>
             </td>
                 
             </tr>

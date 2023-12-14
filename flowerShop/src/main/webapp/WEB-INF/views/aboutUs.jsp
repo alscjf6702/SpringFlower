@@ -1,103 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%@ include file="../common/header.jsp" %>
+
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-		<title>Plantly - Free Plant Selling Website Template</title>
-		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta name="format-detection" content="telephone=no">
-	    <meta name="apple-mobile-web-app-capable" content="yes">
-	    <meta name="author" content="templatesjungle">
-	    <meta name="keywords" content="plant shop">
-	    <meta name="description" content="Free Plant Selling Website Template">
-
-	    <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css" />
-	    <link rel="stylesheet" type="text/css" href="resources/icomoon/icomoon.css">
-	    <link rel="stylesheet" type="text/css" href="resources/css/vendor.css">
-	    
-	    <link rel="stylesheet" type="text/css" href="resources/style.css">
-	    <link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
-	</head>
-
-<body>
-
-<header id="header" class="fixed">
-	<div id="header-wrap">
-		<div class="main-logo">
-			<a href="index.html"><img src="resources/images/logo.png" alt="logo"></a>
-		</div>
-
-		<nav id="navbar">
-			<div class="main-menu" id="navigation">
-				<ul class="menu-list navbar-nav">
-					<li class="menu-item"><a href="index.html" data-effect="Home" class="nav-link">Home</a></li>
-					<li class="menu-item"><a href="#about" data-effect="about" class="nav-link">About</a></li>
-					<li class="menu-item"><a href="#fresh-arrivals" data-effect="shop" class="nav-link">Shop</a></li>
-					<li class="menu-item nav-item">
-						<a href="#collection" data-effect="collection" class="nav-link">Collection</a>
-					</li>
-					<li class="menu-item">
-						<a href="#latest-blog" data-effect="latest-blog" class="nav-link">Blog</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a href="#" data-bs-toggle="dropdown" aria-expanded="false"
-							class="nav-link dropdown-toggle">Pages</a>
-						<ul class="dropdown-menu">
-							<li><a href="about.html" class="dropdown-item">About us <span class="badge bg-primary">PRO</span></a></li>
-							<li><a href="blog.html" class="dropdown-item">Blog <span class="badge bg-primary">PRO</span></a></li>
-							<li><a href="single-post.html" class="dropdown-item">Single Post <span class="badge bg-primary">PRO</span></a></li>
-							<li><a href="contact.html" class="dropdown-item">Contact us <span class="badge bg-primary">PRO</span></a></li>
-							<li><a href="shop.html" class="dropdown-item">Shop <span class="badge bg-primary">PRO</span></a></li>
-							<li><a href="single-product.html" class="dropdown-item">Single Product <span class="badge bg-primary">PRO</span></a></li>
-						</ul>
-					</li>
-
-					<li><a href="https://templatesjungle.gumroad.com/l/plantly-free-plant-selling-website-template" target="_blank" class="btn btn-dark rounded-pill m-0">Get PRO</a></li>
-				</ul>
-			</div>
-
-			<div class="right-element icon-element">
-				<div class="search-bar">
-					<a href="#" class="search-button search-toggle" data-selector="#header-wrap">
-						<i class="icon icon-search"></i>
-					</a>
-					<form role="search" method="get" class="search-box">
-						<input class="search-field text search-input" placeholder="Search" type="search">
-					</form>
-				</div>
-
-				<div class="user-account for-buy">
-					<a href="#">
-					<i class="icon icon-user"></i>
-					</a>
-				</div>
-
-				<div class="like-bar for-buy">
-					<a href="#">
-						<i class="icon icon-like-button"></i>
-						<i class="icon icon-liked-button"></i>	
-					</a>
-			    </div><!--like-bar-->
-
-				<div class="cart for-buy">
-					<a href="#">
-					<i class="icon icon-account"></i>
-					<span>0</span>
-					</a>
-				</div>
-
-			</div><!--right-element-->
-
-		</nav>
-
-	</div><!--header-wrap-->
-</header>
-
 <div class="site-banner">
 	<div class="banner-content bg-accent padding-large">
 		<div class="container">
@@ -106,36 +12,36 @@
 					<div class="section-header">
 						<h1 class="section-title">About Us</h1>
 						<div class="breadcum-items">
-							<span class="item"><a href="index.html">Home /</a></span>
+							<span class="item"><a href="/home">Home /</a></span>
 							<span class="item">About Us</span>
 						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div><!--site-banner-->
+</div>
 
-<section class="py-5">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus facilis similique
-					molestias repudiandae dolor omnis maiores, dicta quaerat pariatur incidunt sapiente soluta
-					labore. Labore perferendis quae tempore earum minima!</p>
-			</div>
-			<div class="col-md-4">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus facilis similique
-					molestias repudiandae dolor omnis maiores, dicta quaerat pariatur incidunt sapiente soluta
-					labore. Labore perferendis quae tempore earum minima!</p>
-			</div>
-			<div class="col-md-4">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus facilis similique
-					molestias repudiandae dolor omnis maiores, dicta quaerat pariatur incidunt sapiente soluta
-					labore. Labore perferendis quae tempore earum minima!</p>
-			</div>
-		</div>
-	</div>
+<section class="py-5 aboutUs_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 aboutUs_top">
+                <h2>우리의 이야기</h2>
+                <p>우리는 고객들에게 꽃 속의 감동을 전하고자 하는 꽃 배달 전문 회사입니다. 오랜 역사와 함께 성장하며, 최상의 상품과 서비스를 제공해 왔습니다.</p>
+            </div>
+            <div class="col-md-4 aboutUs_top">
+                <h2>전문가의 손길</h2>
+                <p>우리 팀은 꽃을 사랑하는 전문가들로 구성되어 있습니다. 언제나 새로운 꽃 디자인과 트렌드에 열정적으로 대응하여, 특별한 순간을 더 특별하게 만들어 드립니다.</p>
+            </div>
+            <div class="col-md-4 aboutUs_top">
+                <h2>창의적인 서비스</h2>
+                <p>우리는 다양한 고객 요구에 대한 창의적인 솔루션을 제공하기 위해 노력합니다. 맞춤 주문과 함께 색다른 꽃 배달 서비스로 당신의 특별한 순간을 더욱 아름답게 만들어 드립니다.</p>
+            </div>
+        </div>
+    </div>
 </section>
+
+
 
 <section class="mt-5">
 	<div class="vertical-element">
@@ -147,14 +53,11 @@
 					</div>
 				</div>
 				<div class="col-md-5">
-					<div class="section-element p-5">
-						<h2>The beginning of our journey</h2>
-						<p>The beginning of our journey vel tellus Turpis purus, gravida orci, fringilla a. Ac sed
-							eu fringilla odio mi. Consequat pharetra at magna imperdiet cursus ac faucibus sit
-							libero. Ultricies quam nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis
-							donec dolor id in. Pulvinar commodo mollis diam sed facilisis at magna imperdiet cursus
-							ac faucibus sit libero.</p>
+					<div class="section-element p-5 aboutUs_center">
+						<h2>역사 및 가치</h2>
+						<p>우리는 오랜 역사를 가진 꽃 배달 전문 회사로서 고객에게 항상 최상의 상품과 서비스를 제공하기 위해 노력하고 있습니다.</p>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -163,13 +66,9 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-5">
-					<div class="section-element p-5">
-						<h2>Who are we?</h2>
-						<p>We are nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis donec dolor id in.
-							Pulvinar commodo mollis diam sed facilisis at magna imperdiet cursus ac faucibus sit
-							libero. Dignissim lacus, turpis ut suspendisse vel tellus. Turpis purus, gravida orci,
-							fringilla a. Ac sed eu fringilla odio mi. Consequat pharetra at magna imperdiet cursus
-							ac faucibus sit libero.</p>
+					<div class="section-element p-5 aboutUs_center">
+						<h2>전문가 팀</h2>
+						<p>우리 회사는 꽃을 사랑하는 전문가들이 모인 팀으로 구성되어 있습니다. 항상 유행하는 꽃 디자인과 트렌드를 업데이트하고 있습니다.</p>
 					</div>
 				</div>
 				<div class="col-md-7">
@@ -197,35 +96,36 @@
 	<div class="container">
 		<div class="row">
 			<div class="section-header text-center my-5">
-				<h3>Customer Reviews</h3>
+				<h1>Customer Reviews</h1>  
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="testimonial-item text-center">
+				<div class="testimonial-item text-center aboutUs_review">
 					<blockquote>
-						<p>“Consequat pharetra at magna imperdiet cursus ac faucibus sit libero.”</p>
-						<div class="review-title text-uppercase">Denim craze</div>
+						<p>“감동적인 꽃 선물! 예쁜 꽃들이 신속하게 도착했고, 정성스럽게 포장되어 왔어요. 이 서비스 덕분에 소중한 순간을 더 아름답게 만들 수 있었습니다.”</p>
+						<div class="review-title text-uppercase">sung32****</div>
 					</blockquote>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="testimonial-item text-center">
+				<div class="testimonial-item text-center aboutUs_review">
 					<blockquote>
-						<p>“Ultricies quam nunc, lorem sit lorem urna, pretium aliquam ut. In vel, quis donec dolor
-							id in.”</p>
-						<div class="review-title text-uppercase">uptop</div>
+						<p>“퀄리티 좋은 꽃다발과 친절한 배송 서비스에 감동받았어요. 받는 이의 마음까지 전해지는 꽃으로 특별한 선물이 되었습니다. 다음 번 꽃 선물도 여기서 주문할 거에요!”</p>
+						<div class="review-title text-uppercase">jsmin****</div>
 					</blockquote>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="testimonial-item text-center">
+				<div class="testimonial-item text-center aboutUs_review">
 					<blockquote>
-						<p>“Consequat pharetra at magna imperdiet cursus ac faucibus sit libero.”</p>
-						<div class="review-title text-uppercase">casual way</div>
+						<p>“이 꽃배달 서비스는 정말 믿고 이용할 만해요. 예상보다 더 아름다운 꽃다발이 도착해서 기분이 좋았고, 신속한 배송으로 믿음이 갑니다. 다양한 꽃들과 서비스에 놀라움을 느꼈어요!”</p>
+						<div class="review-title text-uppercase">minch***</div>
 					</blockquote>
 				</div>
 			</div>
+			<a href="review_page.html" class="btn btn-primary review_Btn">Read More Reviews</a>
+			
 		</div>
 	</div>
 </section>
@@ -363,5 +263,4 @@
 		scrollToTopBtn.addEventListener("click", scrollToTop);
 	</script>
 
-</body>
-</html>	
+<%@ include file="../common/footer.jsp" %>
