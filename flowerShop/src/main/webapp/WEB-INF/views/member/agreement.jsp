@@ -13,7 +13,8 @@
                         <h1 class="section-title"> 약관동의 </h1>
                         <div class="breadcum-items">
                             <span class="item"><a href="/home">Home /</a></span>
-                            <span class="item"><a href="/member/login">login</a></span>
+                            <span class="item"><a href="/member/login">login /</a></span>
+                            <span class="item">agreement</span>
                             
                         </div>
                     </div>

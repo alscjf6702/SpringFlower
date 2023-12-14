@@ -2101,3 +2101,65 @@ nav#navbar ul.menu-list {
 .openAgreement:hover {
     background-color: #ddd; /* 호버 시 배경색 변경 */
 }
+
+/*-------------------aboutUs-----------------*/
+.aboutUs_section {
+    padding: 50px 0;
+}
+
+.aboutUs_section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6cb33e;
+    text-shadow: 2px 2px 2px #cdcdcd;  /* 글자에 그림자 효과를 추가합니다. */
+    font-family: 'Arapey', sans-serif;
+    
+}
+
+.aboutUs_section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.aboutUs_top{
+	padding:30px;
+}
+.aboutUs_review{
+		padding:0 30px;	
+}
+.review_Btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #6cb33e;
+    color: #fff;
+    border: 1px solid #6cb33e;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.review_Btn:hover {
+    background-color: #fff;
+    color: #6cb33e;
+}
+
+.aboutUs_center h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #6cb33e;
+    text-shadow: 2px 2px 2px #cdcdcd;  /* 글자에 그림자 효과를 추가합니다. */
+    font-family: 'Arapey', sans-serif;
+    
+}
+.aboutUs_center p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    
+}

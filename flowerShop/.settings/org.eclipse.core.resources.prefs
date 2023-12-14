@@ -3,5 +3,5 @@ encoding//src/main/webapp/WEB-INF/common/header.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/aboutUs.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/notice/list.jsp=UTF-8
 encoding//src/main/webapp/WEB-INF/views/selectedProduct.jsp=UTF-8
-encoding//src/main/webapp/resources/style.css=UTF-8
+encoding//src/main/webapp/resources/css/style.css=UTF-8
 encoding//src/test/java/com/hwawon/mapper/MemberMapperTest.java=UTF-8

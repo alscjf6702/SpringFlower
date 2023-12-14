@@ -57,7 +57,6 @@ function check_ConfirmPwd() {
     }
 }
 
-
 function check_Phone() {
     var phone1 = document.getElementById('phone_1').value;
     var phone2 = document.getElementById('phone_2').value;

@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,10 +12,10 @@
 	    <meta name="keywords" content="flowershop">                    <!-- 검색 엔진에게 문서와 관련된 키워드를 제공 -->
 	    <meta name="description" content="Fresh flowers, delivered with care">    <!-- 간단한 설명을 제공하여 검색 결과에서 표시 -->
 
-	    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.css" />   <!-- 사이트의 레이아웃, 버튼, 폼 등 -->
+	    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.css"/>   <!-- 사이트의 레이아웃, 버튼, 폼 등 -->
 	    <link rel="stylesheet" type="text/css" href="/resources/css/vendor.css">            <!--  외부 라이브러리 -->
 		<link rel="stylesheet" type="text/css" href="/resources/icomoon/icomoon.css">       <!-- 아이콘 폰트 -->
-	    <link rel="stylesheet" type="text/css" href="/resources/style.css">                 <!-- 전반적인 디자인 및 레이아웃 -->
+	    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">                 <!-- 전반적인 디자인 및 레이아웃 -->
 		<link rel="stylesheet" type="text/css" href="/resources/css/notice.css"> 			<!-- 공지사항css -->
 		
 	    <link rel="preconnect" href="https://fonts.googleapis.com">                <!-- Google Fonts를 사용하여 웹 폰트를 불러오기 (Arapey) -->
@@ -27,7 +26,6 @@
 </head>
 
 <body>
-
 	<header id="header" class="fixed">
 		<div id="header-wrap">
 			<div class="main-logo">
@@ -38,7 +36,7 @@
 				<div class="main-menu" id="navigation">
 					<ul class="menu-list navbar-nav">
 						<li class="menu-item"><a href="/home" data-effect="Home" class="nav-link">Home</a></li>
-						<li class="menu-item"><a href="/aboutUs" data-effect="about" class="nav-link">About</a></li>
+						<li class="menu-item"><a href="/aboutUs" data-effect="about" class="nav-link">AboutUs</a></li>
 						<li class="menu-item"><a href="/allProducts" data-effect="shop" class="nav-link">Shop</a></li>
 						<li class="menu-item nav-item">
 							<a href="#collection" data-effect="collection" class="nav-link">Collection</a>
