@@ -121,7 +121,7 @@
   <section class="single-product mt-0 mt-md-5 pt-md-5">
 	<div class="container">
 	  <nav class="breadcrumb">
-		<a class="breadcrumb-item" href="#">Home</a>
+		<a class="breadcrumb-item" href="#">Homea</a>
 		<a class="breadcrumb-item" href="#">Pages</a>
 		<span class="breadcrumb-item active" aria-current="page">Single Product</span>
 	  </nav>
