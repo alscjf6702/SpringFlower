@@ -27,12 +27,12 @@
 <br><br>
 
 <div class="signup_section">
-    <form method="post" name="frm" action="/member/signup">
+    <form method="post" name="frm" action="/member/signup" onsubmit="return check_Phone();" >
 
-		<span class="signup_asterisk">*은 필수입력입니다.</span> <br> 
+      <span class="signup_asterisk">*은 필수입력입니다.</span> <br> 
         <table class="signup_table">
             <tr>
-				<th><label for="userId"> 아이디 <span style="color:red;"> * </span></label></th>
+            <th><label for="userId"> 아이디 <span style="color:red;"> * </span></label></th>
                 <td>
                     <input type="text" id="userId" name="userId" size="15">
                     <button class="signup_Btn" onclick="checkDuplicateId()"> ID중복확인 </button>
@@ -44,11 +44,11 @@
                 <td><input type="password" id="pwd" name="pwd"></td>
             </tr>
             <tr>
-				<th><label for="confirmPwd"> 비밀번호 확인 <span style="color:red;"> * </span></label></th>
-				<td>
-				    <input type="password" id="confirmPwd" name="confirmPwd" oninput="check_ConfirmPwd()">
-   				    <span id="errorMsg_Pwd"></span>
-				</td>
+            <th><label for="confirmPwd"> 비밀번호 확인 <span style="color:red;"> * </span></label></th>
+            <td>
+                <input type="password" id="confirmPwd" name="confirmPwd" oninput="check_ConfirmPwd()">
+                   <span id="errorMsg_Pwd"></span>
+            </td>
                 
             </tr>
             <tr>
@@ -58,8 +58,8 @@
             <tr>
                 <th><label for="regiNum_1"> 주민등록번호 <span style="color:red;"> * </span></label></th>
                 <td><input type="text" id="regiNum_1" name="regiNum_1" maxlength="6" > &nbsp; - &nbsp;
-                	<input type="password" name="regiNum_2" maxlength="7" > 
-                	
+                   <input type="password" name="regiNum_2" maxlength="7" > 
+                   
                 </td>
             </tr>
             <tr>
@@ -78,25 +78,24 @@
                         <option value="daum.net">daum.net</option>
                         <option value="gmail.com">gmail.com</option>
                     </select>
-                    <input type="hidden" id="email" name="email" value="">
                 </td>
             </tr>
-            <tr>
-                <th><label for="phone"> 핸드폰 번호 <span style="color:red;"> * </span></label></th>
-                <td>
-                    <input type="text" id="phone_1" name="phone_1" size="4"> - 
-                    <input type="text" id="phone_2" name="phone_2" size="6"> - 
-                    <input type="text" id="phone_3" name="phone_3" size="6">
-                    <button class="signup_Btn" onclick="()">인증번호 받기</button>  &nbsp;&nbsp;&nbsp;
-                    <input type="text" name="phone_chk" size="4">
-                    <button class="signup_Btn" onclick="()">인증번호 확인</button>  
-    				<input type="hidden" id="phone" name="phone" value="">
-                </td>
-            </tr>
+         <tr>
+             <th><label for="phone_1"> 핸드폰 번호 <span style="color:red;"> * </span></label></th>
+             <td>
+                 <input type="text" id="phone_1" name="phone_1" size="4"> - 
+                 <input type="text" id="phone_2" name="phone_2" size="6"> - 
+                 <input type="text" id="phone_3" name="phone_3" size="6">
+                 <button class="signup_Btn" onclick="updateHiddenField()">인증번호 받기</button>  &nbsp;&nbsp;&nbsp;
+                 <input type="text" name="phone_chk" size="4">
+                 <button class="signup_Btn" onclick="verifyCode()">인증번호 확인</button>  
+                          <input type="hidden" id="phone" name="phone" value="">   
+             </td>
+         </tr>
             <tr>
                 <th><label for="address"> 주소 </label></th>
                 <td><input type="text" id="address" name="address">
-                	<button class="signup_Btn" onclick="()">주소 검색</button>
+                   <button class="signup_Btn" onclick="()">주소 검색</button>
                 </td>
             </tr>
         </table>
