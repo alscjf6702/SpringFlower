@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hwawon.mapper.MemberMapper">
+
+	<select id="listMember" resultType="com.hwawon.domain.MemberVO">
+		select * from member
+	</select>
+	
+	<insert id="regiMember">
+		insert into member(userId,userNick,userName,pwd,email,phone,postCode,address,regiNum_1,regiNum_2)
+		values(#{userId},#{userNick},#{userName},#{pwd},#{email},#{phone},#{postCode},#{address},#{regiNum_1},#{regiNum_2})
+	</insert>
+	
+	<update id="updateMember">
+		update member set pwd=#{pwd} , email=#{email}, phone=#{phone},
+		postCode=#{postCode}, address=#{address} where userNum=#{userNum}
+	</update>
+
+	<delete id="delMember">
+		delete from member where userNum = #{userNum}
+	</delete>
+	
+	<select id="loginMember" resultType="int">
+		select * from member where userId=#{userId}
+	</select>
+
+</mapper>
