@@ -5,7 +5,6 @@ import java.util.List;
 import com.hwawon.domain.MemberVO;
 
 public interface MemberMapper {
-	
 
 	public List<MemberVO> listMember();
 	
@@ -16,5 +15,4 @@ public interface MemberMapper {
 	public void updateMember(MemberVO vo);
 	
 	public int loginMember(String userId);
-	
 }

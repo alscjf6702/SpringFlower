@@ -9,23 +9,21 @@ public class PageDTO {
 
 	private int startPage, endPage, realEnd;
 	private boolean prev, next;
-	private int total; // 전체 게시물 수
+	private int total; 
 	private Criteria cri;
 
 	public PageDTO(Criteria cri, int total) {
-		this.cri = cri; // 11
-		this.total = total; // 120
-  
-		endPage = (int) (Math.ceil(cri.getPageNum() / 10.0)) * 10; // 12
-		startPage = endPage - 9; // 11
+		this.cri = cri;
+		this.total = total; 
 
-		realEnd = (int) (Math.ceil((total * 1.0) / cri.getAmount())); // 12
+		endPage = (int) (Math.ceil(cri.getPageNum() / 10.0)) * 10; 
+		startPage = endPage - 9;
+
+		realEnd = (int) (Math.ceil((total * 1.0) / cri.getAmount())); 
 		if (realEnd < endPage)
 			endPage = realEnd;
 
 		prev = startPage > 1;
 		next = endPage < realEnd;
-
 	}
-
 }

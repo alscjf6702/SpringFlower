@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,16 +13,19 @@
 	    <meta name="keywords" content="flowershop">                    <!-- 검색 엔진에게 문서와 관련된 키워드를 제공 -->
 	    <meta name="description" content="Fresh flowers, delivered with care">    <!-- 간단한 설명을 제공하여 검색 결과에서 표시 -->
 
-	    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.css"/>   <!-- 사이트의 레이아웃, 버튼, 폼 등 -->
+	    <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap.min.css"/>    <!-- 사이트의 레이아웃, 버튼, 폼 등 -->
 	    <link rel="stylesheet" type="text/css" href="/resources/css/vendor.css">            <!--  외부 라이브러리 -->
 		<link rel="stylesheet" type="text/css" href="/resources/icomoon/icomoon.css">       <!-- 아이콘 폰트 -->
-	    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">                 <!-- 전반적인 디자인 및 레이아웃 -->
+	    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">             <!-- 전반적인 디자인 및 레이아웃 -->
 		<link rel="stylesheet" type="text/css" href="/resources/css/notice.css"> 			<!-- 공지사항css -->
 		
-	    <link rel="preconnect" href="https://fonts.googleapis.com">                <!-- Google Fonts를 사용하여 웹 폰트를 불러오기 (Arapey) -->
+	    <link rel="preconnect" href="https://fonts.googleapis.com">               
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
-		
+		<link href="https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap" rel="stylesheet">		   
+		<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">  
+		<link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Nanum+Pen+Script&family=Sunflower:wght@500&display=swap" rel="stylesheet"> 
+
 		<link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
 </head>
 
@@ -35,18 +39,12 @@
 			<nav id="navbar">
 				<div class="main-menu" id="navigation">
 					<ul class="menu-list navbar-nav">
-						<li class="menu-item"><a href="/home" data-effect="Home" class="nav-link">Home</a></li>
-						<li class="menu-item"><a href="/aboutUs" data-effect="about" class="nav-link">AboutUs</a></li>
-						<li class="menu-item"><a href="/allProducts" data-effect="shop" class="nav-link">Shop</a></li>
-						<li class="menu-item nav-item">
-							<a href="#collection" data-effect="collection" class="nav-link">Collection</a>
-						</li>
-						<li class="menu-item">
-							<a href="#latest-blog" data-effect="latest-blog" class="nav-link">Blog</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a href="#" data-bs-toggle="dropdown" aria-expanded="false"
-								class="nav-link dropdown-toggle">Pages</a>
+						<li class="menu-item"><a href="/home" data-effect="Home" class="nav-link"><span class="nav_menu"> Home </span></a></li>
+						<li class="menu-item"><a href="/aboutUs" data-effect="about" class="nav-link"><span class="nav_menu"> AboutUs </span></a></li>
+						<li class="menu-item"><a href="/allProducts" data-effect="shop" class="nav-link"><span class="nav_menu"> Shop </span></a></li>
+						<li class="menu-item nav-item"><a href="#collection" data-effect="collection" class="nav-link"><span class="nav_menu"> Collection </span></a></li>
+						<li class="menu-item"><a href="#latest-blog" data-effect="latest-blog" class="nav-link"><span class="nav_menu"> Blog </span></a></li>
+						<li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" aria-expanded="false"class="nav-link dropdown-toggle"> Pages </a>
 							<ul class="dropdown-menu">
 								<li><a href="about.html" class="dropdown-item">About us <span class="badge bg-primary">PRO</span></a></li>
 								<li><a href="blog.html" class="dropdown-item">Blog <span class="badge bg-primary">PRO</span></a></li>
@@ -90,10 +88,7 @@
 						<span>0</span>
 						</a>
 					</div>
-	
 				</div><!--right-element-->
-	
 			</nav>
-	
 		</div><!--header-wrap-->
 	</header>

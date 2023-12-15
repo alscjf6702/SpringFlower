@@ -23,14 +23,16 @@ public class NoticeController {
 	private NoticeService service;
 
 	/*
-	 * @GetMapping("/list") public void getList(Model model) {
-	 * model.addAttribute("list", service.getList()); }
+	 * @GetMapping("/list") 
+	 * public void getList(Model model) {
+	 * model.addAttribute("list", service.getList()); 
+	 * }
 	 */
 
 	@GetMapping("/list")
 	public void getList(Criteria cri, Model model) {
-	    model.addAttribute("list", service.getPagingList(cri));
-	    model.addAttribute("page", new PageDTO(cri, service.TotalCount(cri)));
+		model.addAttribute("list", service.getPagingList(cri));
+		model.addAttribute("page", new PageDTO(cri, service.TotalCount(cri)));
 	}
 
 	@GetMapping({ "/detail", "/update" })
@@ -44,22 +46,20 @@ public class NoticeController {
 	}
 
 	@PostMapping("/write")
-	public String insert(NoticeVO vo) {
+	public String postInsert(NoticeVO vo) {
 		service.insert(vo);
 		return "redirect:/notice/list";
 	}
 
 	@PostMapping("/update")
-	public String update(NoticeVO vo, RedirectAttributes rttr) {
+	public String update(NoticeVO vo) {
 		service.update(vo);
-		rttr.addFlashAttribute("msg", "게시물이 수정되었습니다.");
 		return "redirect:/notice/list";
 	}
 
 	@PostMapping("/delete")
-	public String delete(@Param("num") int num, RedirectAttributes rttr) {
+	public String postDelete(@Param("num") int num) {
 		service.delete(num);
-		rttr.addFlashAttribute("msg", "게시물이 삭제되었습니다.");
 		return "redirect:/notice/list";
 	}
 

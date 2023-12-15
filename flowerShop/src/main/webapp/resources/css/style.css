@@ -1,83 +1,4 @@
-/*
-Template Name: Plantly
-Template URI: https://templatesjungle.com/
-Author: TemplatesJungle
-Author URI: https://templatesjungle.com/
-Description: Plantly is specially designed interiors for Plant Store by TemplatesJungle.
-Version: 1.1
-*/
-
-/*------------------------------------------------
-
-CSS STRUCTURE:
-
-1. GENERAL TYPOGRAPHY
-  1.1 General Styles
-    - Links
-    - Floating & Alignment
-    - Clear Floats
-  1.2 Headings
-  1.3 Basic Lists
-  1.4 Images Styles
-    - Image with Caption
-    - Image with Frame
-  1.5 Forms Styles
-  1.6 Tables Styles
-  1.7 Styled Boxes
-  1.8 Buttons
-    - Button Styles
-    - Button Color Scheme
-    - Buttons with sliding effect
-
-2. SITE STRUCTURE
-  2.1 General
-  2.2 Navigation
-  2.3 Section
-    - Section General
-    - Content colors
-  2.4 Sliders
-    - Box Slider
-    - Owl carousel
-    - Revolution Slider
-  2.5 404 Error Page
-  2.6 Footer
-  2.7 Page Navigations
-
-3. CONTENT ELEMENTS
-  3.1 Captions
-  3.2 Posts carousel
-  3.3 Posts Masonry
-  3.4 Portfolio filterable
-  3.5 Milestones
-
-4. BLOG STYLES
-  4.1 Blog
-  4.2 Blog Single Post
-  4.3 Single portfolio
-  4.4 Post content
-  4.5 About Author
-  4.6 Comments List
-  4.7 Comments Form
-  
-5. WIDGET STYLES
-  - Widget General
-  - Sidebar Widget General
-  - Footer Widget General
-  5.1 Search Form Widget
-  5.2 Recent Comments Widget
-  5.3 Tags Widget
-  5.4 Twitter Widget
-  5.5 Flickr Widget
-  
-6. EXTENDED TYPOGRAPHY
-  6.1 Blockquote / Pullquote
-  6.2 Dropcap
-  6.3 Text Highlights
-  6.4 Code & Pre
-
-------------------------------------------------*/
-
-/* Bootstrap */
+  /* bootstrap */
 body {
   --heading-font: "Arapey", Georgia, serif;
   --heading-font-weight: 700;
@@ -86,7 +7,6 @@ body {
 
   --swiper-theme-color: #588456;
 
-  /* bootstrap */
   --bs-body-font-family: "Open Sans", sans-serif;
   --bs-body-font-size: 17px;
   --bs-body-font-weight: 400;
@@ -1013,6 +933,7 @@ html {
     font-size: 3.2em;
     line-height: 1;
     font-weight: 500;
+    text-shadow: 3px 3px 3px #cdcdcd;
 }
 
 /* - Section Padding
@@ -1904,262 +1825,278 @@ nav#navbar ul.menu-list {
     height: 600px;
   }
 }
-/*---------------------------signup-----------------------------------*/
 
+
+
+/*--------------------------- signup ---------------------------*/
 .signup_section {
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    border-radius: 10px; /* Added border-radius property for rounded corners */
-    overflow: hidden; /* Added overflow property to hide content overflow */
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	overflow: hidden;
 }
 
-.signup_section th,
-.signup_section td {
-    border: 1px solid #d0d0d0;
-    padding: 10px;
+.signup_section th, .signup_section td {
+	border: 1px solid #d0d0d0;
+	padding: 10px;
 }
 
 .signup_section th {
-    background-color: #ebeee3;
-    text-align: center;
-    padding: 20px 45px;
-    font-size:17px;
+	background-color: #ebeee3;
+	text-align: center;
+	padding: 20px 45px;
+	font-size: 17px;
 }
 
-.signup_section th,
-.signup_section td {
-    color: #333;
+.signup_section th, .signup_section td {
+	color: #333;
 }
 
 .signup_section th:nth-child(1) {
-    width: 20%; /* Adjusted width for �씪踰� column */
+	width: 20%;
 }
 
-.signup_section th:nth-child(2),
-.signup_section td:nth-child(2) {
-    width: 80%; /* Adjusted width for �엯�젰�븘�뱶 column */
+.signup_section th:nth-child(2), .signup_section td:nth-child(2) {
+	width: 80%;
 }
 
 .signup_section button {
-    padding: 10px;
-    background-color: #b4cd65;
-    color: #fff;
-    border: none;
-    border-radius: 5px; /* Added border-radius property for rounded corners */
-    cursor: pointer;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 15px;
-    margin-bottom: 15px;
+	padding: 10px;
+	background-color: #b4cd65;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-bottom: 15px;
 }
 
 .signup_section .insertBtn {
-    text-align: center;
-    margin-top: 20px;
+	text-align: center;
+	margin-top: 20px;
 }
+
 .signup_asterisk {
-	font-size:14px; 
-	color:red; 
-	position: absolute; 
+	font-size: 14px;
+	color: red;
+	position: absolute;
 	right: 25%;
 }
-.signup_table{
-	margin:0 auto;
-}
-.signup_Btn{
-    padding: 3px 5px; /* 상하 여백 3px, 좌우 여백 5px */
-    font-size: 14px;
-    line-height: 0.5; 
-	
-}
-/*---------------------------login-----------------------------------*/
 
+.signup_table {
+	margin: 0 auto;
+}
+
+.signup_Btn {
+	padding: 3px 5px;
+	font-size: 14px;
+	line-height: 0.5;
+}
+
+
+
+/*--------------------------- login ---------------------------*/
 .login_table {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .login_table form {
-  display: inline-block;
-  text-align: left; 
+	display: inline-block;
+	text-align: left;
 }
 
 .login_table label {
-  margin-bottom: 5px;
-  font-weight: bold;
+	margin-bottom: 5px;
+	font-weight: bold;
 }
 
 .login_table input {
-  padding: 12px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+	padding: 12px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
 .login_table hr {
-  width: 100%;
-  margin: 20px 0;
-  border: none;
-  height: 1px;
-  background-color: #ccc;
+	width: 100%;
+	margin: 20px 0;
+	border: none;
+	height: 1px;
+	background-color: #ccc;
 }
 
 .login_table button {
-  width: 100%;
-  padding: 15px;
-  background-color: #6cb33e;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+	width: 100%;
+	padding: 15px;
+	background-color: #6cb33e;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
 .login_table button:hover {
-  background-color: #4a7725;
+	background-color: #4a7725;
 }
 
 .login_table button[type="button"] {
-  width: 100%;
-  margin-top: 10px;
-  background-color: #ddd;
-  color: #333;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+	width: 100%;
+	margin-top: 10px;
+	background-color: #ddd;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
 }
 
 .login_table button[type="button"]:hover {
-  background-color: #ccc;
+	background-color: #ccc;
 }
-/*-------------------agreement-----------------*/
+
+
+
+/*--------------------------- agreement ---------------------------*/
 .agreement_section {
-    padding: 20px;
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
+	padding: 20px;
+	text-align: left;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .agreement_section h3 {
-    font-size: 28px; 
-    margin-bottom: 15px;
-    text-align:center;
-    font-family: 'Arapey', sans-serif;
+	font-size: 28px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: 'Arapey', sans-serif;
 }
 
 .agreement_section hr {
-    border: 1px solid #cdcdcd;
-    margin: 30px 30px 40px 40px;
+	border: 1px solid #cdcdcd;
+	margin: 30px 30px 40px 40px;
 }
 
 .agreement_textarea {
-    width: 100%;
-    padding: 15px; 
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px; 
-    font-family: 'Arapey', sans-serif; 
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: 'Arapey', sans-serif;
 }
 
 .agreement_h4 {
-    font-size: 20px;
-    margin-bottom: 10px;
-     font-family: 'Arapey', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: 'Arapey', sans-serif;
 }
 
 .agree_check {
-    display: block;
-    margin-top: 15px;
-    font-size: 16px; 
-    font-family: 'Arapey', sans-serif;
- 	text-align:center;
+	display: block;
+	margin-top: 15px;
+	font-size: 16px;
+	font-family: 'Arapey', sans-serif;
+	text-align: center;
 }
 
 .agreement_btn {
-    margin-top: 20px;
-     	text-align:center;
-    
+	margin-top: 20px;
+	text-align: center;
 }
 
 .btn-rounded {
-    border-radius: 5px; 
+	border-radius: 5px;
 }
 
 .openAgreement, .agreement_h4 {
-    display: inline-block;
+	display: inline-block;
 }
-.openAgreement{
-	float:right;
-    transition: background-color 0.3s ease; /* 배경색 변화에 대한 트랜지션 */
+
+.openAgreement {
+	float: right;
+	transition: background-color 0.3s ease;
 }
 
 .openAgreement:hover {
-    background-color: #ddd; /* 호버 시 배경색 변경 */
+	background-color: #ddd;
 }
 
-/*-------------------aboutUs-----------------*/
+
+
+/*--------------------------- aboutUs ---------------------------*/
 .aboutUs_section {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 .aboutUs_section h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #6cb33e;
-    text-shadow: 2px 2px 2px #cdcdcd;  /* 글자에 그림자 효과를 추가합니다. */
-    font-family: 'Arapey', sans-serif;
-    
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #6cb33e;
+	text-shadow: 2px 2px 2px #cdcdcd;
+	font-family: 'Hi Melody', sans-serif;
 }
 
 .aboutUs_section p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
+	font-size: 26px;
+	font-family: 'Hi Melody', sans-serif;
+	color: #333;
+	line-height: 1.6;
 }
-.aboutUs_top{
-	padding:30px;
+
+.aboutUs_top {
+	padding-right: 30px;
+	padding-left: 30px;
 }
-.aboutUs_review{
-		padding:0 30px;	
+
+.aboutUs_review {
+	padding: 0 30px;
 }
+
 .review_Btn {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: #6cb33e;
-    color: #fff;
-    border: 1px solid #6cb33e;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+	display: inline-block;
+	padding: 12px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: #6cb33e;
+	color: #fff;
+	border: 1px solid #6cb33e;
+	border-radius: 5px;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 .review_Btn:hover {
-    background-color: #fff;
-    color: #6cb33e;
+	background-color: #fff;
+	color: #6cb33e;
 }
 
 .aboutUs_center h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #6cb33e;
-    text-shadow: 2px 2px 2px #cdcdcd;  /* 글자에 그림자 효과를 추가합니다. */
-    font-family: 'Arapey', sans-serif;
-    
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #6cb33e;
+	text-shadow: 2px 2px 2px #cdcdcd;
+	font-family: 'Arapey', sans-serif;
 }
+
 .aboutUs_center p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
-    
+	font-size: 18px;
+	line-height: 1.6;
+	color: #333;
+}
+
+.nav_menu{
+		font-size: 20px;
+	
 }

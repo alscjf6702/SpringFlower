@@ -22,5 +22,4 @@ public interface NoticeService {
 	public int TotalCount(Criteria cri);
 
 	public void readCount(int num);
-
 }

@@ -17,9 +17,9 @@ public interface NoticeMapper {
 
 	public void delete(int num);
 
-	public List<NoticeVO> getPagingList(Criteria cri); // 특정 페이지에 해당하는 게시글 목록을 반환
+	public List<NoticeVO> getPagingList(Criteria cri);
 
-	public int TotalCount(Criteria cri); // DB에서 받아올 총 게시물 수
+	public int TotalCount(Criteria cri);
 
 	public void readCount(int num);
 }

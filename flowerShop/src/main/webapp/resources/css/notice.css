@@ -1,200 +1,206 @@
-
-/* ----------------------list------------------------- */
+/* ---------------------- list ------------------------- */
 .notice_section {
-    padding: 20px;
-    margin-top: 30px;
+	padding: 20px;
+	margin-top: 30px;
 }
 
 .notice_table {
-    width: 65%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+	width: 65%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	margin-bottom: 20px;
 }
 
 .notice_td a:hover {
-    color: #6cb33e; 
-    text-decoration: underline;
+	color: #6cb33e;
+	text-decoration: underline;
 }
+
 .notice_table th, .notice_table td {
-    border: 1px solid #d0d0d0;
-    padding: 10px;
-    text-align: center;
+	border: 1px solid #d0d0d0;
+	padding: 10px;
+	text-align: center;
 }
 
 .notice_table th {
-    background-color: #ebeee3;
+	background-color: #ebeee3;
 }
 
 .notice_table th, .notice_table td, .notice_table2 td {
-    color: #333;
+	color: #333;
 }
 
 .notice_table th:nth-child(2), .notice_table td:nth-child(2) {
-    width: 50%; /* Adjusted width for 제목 column */
+	width: 50%; /* Adjusted width for 제목 column */
 }
 
 .notice_table th:nth-child(3), .notice_table td:nth-child(3) {
-    width: 20%; /* Adjusted width for 작성일자 column */
+	width: 20%; /* Adjusted width for 작성일자 column */
 }
 
 .notice_table th:nth-child(4), .notice_table td:nth-child(4),
-.notice_table th:nth-child(5), .notice_table td:nth-child(5) {
-    width: 10%; /* Adjusted width for 글번호 and 작성자 columns */
+	.notice_table th:nth-child(5), .notice_table td:nth-child(5) {
+	width: 10%; /* Adjusted width for 글번호 and 작성자 columns */
 }
 
-.notice_table th:not(:nth-child(2, 3, 4, 5)), .notice_table td:not(:nth-child(2, 3, 4, 5)) {
-    width: 10%; /* Adjusted width for other columns */
+.notice_table th:not(:nth-child(2, 3, 4, 5)), .notice_table td:not(:nth-child(2,
+	3, 4, 5)) {
+	width: 10%; /* Adjusted width for other columns */
 }
-------------------------------
+
 .list_paging {
-    text-align: center;
-    margin-top: 20px;
+	text-align: center;
+	margin-top: 20px;
 }
+
+
+
 
 .paging {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding: 0;
-    margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	padding: 0;
+	margin: 0;
 }
 
 .paging li {
-    margin: 0;
+	margin: 0;
 }
 
 .paging li a {
-    text-decoration: none;
-    padding: 10px 15px;
-    border: 1px solid #ddd;
-    color: #333;
-    transition: background-color 0.3s;
-    border-radius: 5px;
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	color: #333;
+	transition: background-color 0.3s;
+	border-radius: 5px;
 }
 
 .paging li a:hover {
-    background-color: #ebeee3;
+	background-color: #ebeee3;
 }
 
-.paging li.prev a,
-.paging li.next a {
-    background-color: #f1f1f1;
-    font-weight: bold;
+.paging li.prev a, .paging li.next a {
+	background-color: #f1f1f1;
+	font-weight: bold;
 }
 
-.paging li.prev a:hover,
-.paging li.next a:hover {
-    background-color: #ddd;
+.paging li.prev a:hover, .paging li.next a:hover {
+	background-color: #ddd;
 }
 
 .paging li.disabled a {
-    pointer-events: none;
-    color: #bbb;
+	pointer-events: none;
+	color: #bbb;
 }
 
 .paging li.dots {
-    font-size: 18px;
-    line-height: 20px;
-    margin-top: 3px;
+	font-size: 18px;
+	line-height: 20px;
+	margin-top: 3px;
 }
 
 @media only screen and (max-width: 600px) {
-    .paging li a {
-        padding: 8px 12px;
-    }
+	.paging li a {
+		padding: 8px 12px;
+	}
 }
--------------------------
+
+
+
+
 .notice-search-form {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
 }
 
-.notice-search {
-    padding: 5px;
-    margin-right: 5px;
-    border: 1px solid #c0c0c0;
-    border-radius: 5px;
-    position: absolute;
-    right: 21%; 
-    top: 460px;
+.noticeSearch{
+	position: relative;
+	right:17.6%;
 }
 
-.searchBtn {
-    padding: 7px 12px;
-    background-color: #b4cd65;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    position: absolute;
-    right: 18%;
-    top: 445px;
-    
+.noticeSearch .notice-search {
+	padding: 5px;
+	margin-right: 5px;
+	border: 1px solid #c0c0c0;
+	border-radius: 5px;
 }
 
-/* ----------------------detail------------------------- */
+.noticeSearch .searchBtn {
+	padding: 7px 12px;
+	background-color: #b4cd65;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.searchBtn{
+	margin-bottom:15px;
+}
+
+/* ---------------------- detail ------------------------- */
 .detail_section {
-    width: 50%;
-    padding: 20px;
-    margin-top: 30px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto; 
+	width: 50%;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .detail_title {
-    font-size: 19px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: left;
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: left;
 }
 
 .detail_hr {
 	margin: 10px auto;
-    width: 100%; 
-    border-top: 3px solid #6cb33e;
+	width: 100%;
+	border-top: 3px solid #6cb33e;
 }
 
 .detail_content {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 1.6;
+	margin-bottom: 20px;
 }
 
 /* ----------------------write------------------------- */
 .write_table {
-    width: 60%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+	width: 60%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	margin-bottom: 20px;
 }
 
 .write_table th, .write_table td {
-    border: 1px solid #d0d0d0;
-    padding: 10px;
-    text-align: center;
+	border: 1px solid #d0d0d0;
+	padding: 10px;
+	text-align: center;
 }
 
 .write_table th {
-    background-color: #ebeee3;
+	background-color: #ebeee3;
 }
 
 .write_table th, .write_table td {
-    color: #333;
+	color: #333;
 }
 
 .write_table th:nth-child(2), .write_table td:nth-child(2) {
-    width: 80%;
+	width: 80%;
 }
 
 .write_table textarea, .write_table input[type="text"] {
-    width: calc(100% - 10px);
-    padding: 5px;
-    box-sizing: border-box;
+	width: calc(100% - 10px);
+	padding: 5px;
+	box-sizing: border-box;
 }
-

@@ -6,7 +6,7 @@
 			<div class="col-md-3 footer-intro">				
 				<div class="footer-menu">
 					<img src="/resources/images/logo-footer.JPG" alt="logo" style="width: 60%; height: auto;" class="footer-logo">
-					<p>Sem magna ut pharetra vitae duis eu senectus sem risus. Morbi non, semper vestibulum euismod accumsan augue.</p>
+					<p>Immerse yourself in the enchanting world of SpringFlower, where vibrant bouquets bring the essence of spring to your special moments. Each handpicked arrangement is a testament to our dedication, filled with exquisite blooms tailored for the perfect gift.</p>
 
 					<div class="form-content">						
 
@@ -106,14 +106,12 @@
 </div>
 
 
-<!-- <script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/plugins.js"></script>
+<script src="resources/js/jquery-3.2.1.min.js"></script>
+<script src="resources/js/bootstrap.bundle.min.js"></script>
+<script src="resources/js/ui-easing.js"></script>
+<script src="resources/js/videopopup.js"></script>
+<script src="resources/js/script.js"></script>
 
-<script src="js/ui-easing.js"></script>
-<script src="js/videopopup.js"></script>
-<script src="js/script.js"></script>
- -->
 
 	<script>
 		var scrollToTopBtn = document.getElementById("scroll-up");
