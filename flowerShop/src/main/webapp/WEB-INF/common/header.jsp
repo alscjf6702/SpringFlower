@@ -32,6 +32,7 @@
 <body>
 	<header id="header" class="fixed">
 		<div id="header-wrap">
+
 			<div class="main-logo">
 				<a href="../home"><img src="/resources/images/logo-header.JPG" alt="logo" style="width: 50%; height: auto; margin-top:10px"></a>
 			</div>
@@ -42,20 +43,13 @@
 						<li class="menu-item"><a href="/home" data-effect="Home" class="nav-link"><span class="nav_menu"> Home </span></a></li>
 						<li class="menu-item"><a href="/aboutUs" data-effect="about" class="nav-link"><span class="nav_menu"> AboutUs </span></a></li>
 						<li class="menu-item"><a href="/allProducts" data-effect="shop" class="nav-link"><span class="nav_menu"> Shop </span></a></li>
-						<li class="menu-item nav-item"><a href="#collection" data-effect="collection" class="nav-link"><span class="nav_menu"> Collection </span></a></li>
-						<li class="menu-item"><a href="#latest-blog" data-effect="latest-blog" class="nav-link"><span class="nav_menu"> Blog </span></a></li>
-						<li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" aria-expanded="false"class="nav-link dropdown-toggle"> Pages </a>
+
+						<li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" aria-expanded="true" class="nav-link dropdown-toggle"><span class="nav_menu"> Notices </span></a>
 							<ul class="dropdown-menu">
 								<li><a href="about.html" class="dropdown-item">About us <span class="badge bg-primary">PRO</span></a></li>
-								<li><a href="blog.html" class="dropdown-item">Blog <span class="badge bg-primary">PRO</span></a></li>
-								<li><a href="single-post.html" class="dropdown-item">Single Post <span class="badge bg-primary">PRO</span></a></li>
-								<li><a href="contact.html" class="dropdown-item">Contact us <span class="badge bg-primary">PRO</span></a></li>
-								<li><a href="shop.html" class="dropdown-item">Shop <span class="badge bg-primary">PRO</span></a></li>
-								<li><a href="single-product.html" class="dropdown-item">Single Product <span class="badge bg-primary">PRO</span></a></li>
 							</ul>
 						</li>
 	
-						<li><a href="https://templatesjungle.gumroad.com/l/plantly-free-plant-selling-website-template" target="_blank" class="btn btn-dark rounded-pill m-0">Get PRO</a></li>
 					</ul>
 				</div>
 	
@@ -80,7 +74,7 @@
 							<i class="icon icon-like-button"></i>
 							<i class="icon icon-liked-button"></i>	
 						</a>
-				    </div><!--like-bar-->
+				    </div><!--like-bar--> 
 	
 					<div class="cart for-buy">
 						<a href="#">
@@ -92,3 +86,4 @@
 			</nav>
 		</div><!--header-wrap-->
 	</header>
+	
