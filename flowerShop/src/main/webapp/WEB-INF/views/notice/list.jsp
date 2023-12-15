@@ -24,13 +24,15 @@
 
 <section class="notice_section">
     <!-- ---------------------------검색------------------------------->
-<form action="/notice/list" method="get" class="notice-search-form">
+<div class="noticeSearch">
+	<form action="/notice/list" method="get" class="notice-search-form">
     <input type="text" name="keyword" class="notice-search">
     <button class="searchBtn">검색</button>
     <input type="hidden" name="type" value="T">
     <input type="hidden" name="pageNum" value="${page.cri.pageNum}">
     <input type="hidden" name="amount" value="${page.cri.amount}">
-</form> <br>
+	</form>
+</div>
     <!-- ---------------------------------------------------------->
 
     <table class="notice_table">

@@ -38,5 +38,4 @@ public class MemberServiceImpl implements MemberService{
 	public int loginMember(String userId) {
 		return mapper.loginMember(userId);
 	}
-
 }

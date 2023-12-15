@@ -17,22 +17,24 @@ public class MemberMapperTest {
 
 	@Autowired
 	private MemberMapper mapper;
-	
+
 	@Test
 	public void listMember() {
-		mapper.listMember().forEach(list-> log.info(list));
+		mapper.listMember().forEach(list -> log.info(list));
 	}
-	
+
 	@Test
 	public void regiMember() {
 		MemberVO vo = MemberVO.builder()
 				.userId("asd6702")
-				.userNick("肄붿쿋�씠")
-				.userName("源�誘쇱쿋")
-				.pwd("alscjf11")
+				.userNick("백곰")
+				.userName("김아무개")
+				.pwd("1234")
+				.email("asdf@naver.com")
 				.phone("010-4414-1244")
 				.postCode(41424)
-				.address("寃쎄린�룄 �닔�썝�떆")
+				.address("수원시")
+				.ssn("123123123")
 				.build();
 		mapper.regiMember(vo);
 	}
@@ -40,18 +42,18 @@ public class MemberMapperTest {
 	@Test
 	public void updateMember() {
 		MemberVO vo = MemberVO.builder()
-				.pwd("alal11")
+				.pwd("1111")
+				.email("bbbb@bbb.com")
 				.phone("010-5515-1231")
-				.postCode(55152)
-				.address("寃쎄린�룄 �꽦�궓�떆")
-				.userNum(1)
+				.postCode(9999)
+				.address("경기도")
+				.userNum(18)
 				.build();
 		mapper.updateMember(vo);
 	}
 
 	@Test
 	public void delMember() {
-		mapper.delMember(1);
+		mapper.delMember(12);
 	}
-	
 }

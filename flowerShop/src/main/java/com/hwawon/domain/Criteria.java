@@ -8,13 +8,13 @@ import lombok.ToString;
 @Setter
 @ToString
 public class Criteria {
-	
-	private int pageNum; // 페이지번호
-	private int amount; // 한페이지에 나타낼 게시물 개수
-	
-	private String type; //검색 타입 ( 제목, 내용, 작성자 등)
-	private String keyword; //key 검색어
-	
+
+	private int pageNum; 
+	private int amount; 
+
+	private String type; 
+	private String keyword;
+
 	public Criteria() {
 		this(1, 10);
 	}
@@ -28,5 +28,4 @@ public class Criteria {
 	public int getNewStart() {
 		return pageNum < 1 ? 0 : (pageNum - 1) * amount;
 	}
-	
 }
